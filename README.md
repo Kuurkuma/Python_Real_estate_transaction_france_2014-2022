@@ -1,3 +1,4 @@
+
 # Context
 " Do global crisis affect the real estate market in France?"
 
@@ -14,6 +15,20 @@ This dataset is provided under a permissive licence, and is free to use for comm
 
 DVF stands for "Requests for property values" dataset, published and produced by the Directorate General of Public Finance, provides information on property transactions over the last five years in mainland France and the French overseas departments and territories, with the exception of Alsace, Moselle and Mayotte. The data contained in this database is derived from notarised deeds and cadastral information.
 
+**Sources of geojson file**
+INSEE for names and codes (2018 edition).
+IGN / Admin Express COG for the routes (2018 edition)
+How were these files generated?
+The data comes from a conversion of the routes from the SHP format supplied by IGN to the GeoJSON format via Mapshaper (cli).
+
+IGN data is extremely accurate, so to optimise file size the files have been simplified in 2 ways:
+
+The precision of the coordinates has been limited (in accordance with the recommendations of the GeoJSON standard) to 5 digits after the decimal point, which corresponds to a margin of around 1.11 metres.
+The plots have been simplified (using the "visvalingam weighted" method) to 25% (the lower the figure, the greater the simplification).
+Example of a mapshaper command to convert an IGN shapefile (input.shp) to geojson format with the parameters described above 
+
+The file used is *departements-version-simplifiee.geojson*:
+https://github.com/gregoiredavid/france-geojson/blob/master/departements-version-simplifiee.geojson
 ### Questions
 
 ##### trends
