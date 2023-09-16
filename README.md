@@ -67,4 +67,9 @@ https://www.etalab.gouv.fr/wp-content/uploads/2018/11/open-licence.pdf
 
 check Data manipulations report.xlsx
 
+### Specific notes
+The dataset has a "number of room" variable which display sometimes a value of "0".
+the documentation advices to merge 0 & 1.
+http://doc-datafoncier.cerema.fr/dv3f/doc/variable/local/nbpprinc
+
 
