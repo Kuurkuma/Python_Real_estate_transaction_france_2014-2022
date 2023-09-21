@@ -1,8 +1,18 @@
+# Extract
+
+<img width="1343" alt="image" src="https://github.com/Kuurkuma/Python_Real_estate_transaction_france_2014-2022/assets/135337076/82f6a578-7828-4c48-9a47-48d4e8c75887">
+
+
+find the complete Story on Tableau public:
+[https://public.tableau.com/views/Frenchrealestatetransactions/DynamicofRealEstateFrenchmarket2016-2022?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/Frenchrealestatetransactions/DynamicofRealEstateFrenchmarket2016-2022?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
 
 # Context
-" Do global crisis affect the real estate market in France?"
 
-This analysis studies the real estate transactions in France between 2014 & 2022.
+**" What is the dynamic of french real estate market?"**
+
+This analysis studies the real estate transactions in France between 2016 & 2022.
+
 
 # Data source
 
@@ -36,17 +46,12 @@ https://github.com/gregoiredavid/france-geojson/blob/master/departements-version
 - How major events (COVID pandemic, Ukrainian war) impact the real estate dynamic
 
 #### geographic
-- What are the regions/ departments with the most/the least transactions?
-- How the region affect the number of transactions ?
+- Which departments have the most/least transactions?
+- Which departments have the highest/lowest price per square metre?
 
 #### Property type
-- What kind of property is the most exchanged on the market?
-- How the number of rooms affect the property price?
--  What is the evolution of price based on type of building?
-
-## Data types
-
-- check excel doc: Data manipulations report
+- Which properties are traded most frequently on the market?
+- What is the trend in transactions by type of building?
 
 ## Limitations & Ethics
 
@@ -61,13 +66,3 @@ https://github.com/gregoiredavid/france-geojson/blob/master/departements-version
 
 The data is free to use under an open 2.0 licence:
 https://www.etalab.gouv.fr/wp-content/uploads/2018/11/open-licence.pdf
-
-
-## Data manipulations
-
-check Data manipulations report.xlsx
-
-## Specific notes
-The dataset has a "number of room" variable which display sometimes a value of "0".
-the documentation advices to merge 0 & 1.
-http://doc-datafoncier.cerema.fr/dv3f/doc/variable/local/nbpprinc
