@@ -3,7 +3,9 @@
 <img width="1343" alt="image" src="https://github.com/Kuurkuma/Python_Real_estate_transaction_france_2014-2022/assets/135337076/82f6a578-7828-4c48-9a47-48d4e8c75887">
 
 
-find the complete Story on Tableau public:
+
+**Find the complete Story on Tableau public:**
+
 [https://public.tableau.com/views/Frenchrealestatetransactions/DynamicofRealEstateFrenchmarket2016-2022?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/Frenchrealestatetransactions/DynamicofRealEstateFrenchmarket2016-2022?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
@@ -19,11 +21,11 @@ This analysis studies the real estate transactions in France between 2016 & 2022
 https://www.kaggle.com/datasets/benoitfavier/immobilier-france?datasetId=2832731&sortBy=dateRun&tab=profile
 
 ## **About Dataset**
-From kaggle, I use  only the dataset containing the history of nearly all of the real estate transactions concerning a single house/apartment in France from 2014 to 2022 from DVF.
+From kaggle, I used only the dataset containing the history of property transactions for houses and flats in France between 2014 and 2022, itself taken from the DVF platform.
 
-This dataset is provided under a permissive licence, and is free to use for commercial applications. It has a vocation of helping research concerning the dynamics of real estate prices.
+This dataset is provided under a permissive licence, and is free to use for commercial applications. Its purpose is to assist research into the dynamics of property prices.
 
-DVF stands for "Requests for property values" dataset, published and produced by the Directorate General of Public Finance, provides information on property transactions over the last five years in mainland France and the French overseas departments and territories, with the exception of Alsace, Moselle and Mayotte. The data contained in this database is derived from notarised deeds and cadastral information.
+The DVF dataset, published and produced by the Direction générale des finances publiques, provides information on property transactions over the last five years in mainland France and the overseas departments and territories, with the exception of Alsace, Moselle and Mayotte. The data contained in this database is derived from notarised deeds and cadastral information.
 
 ## **Sources of geojson file**
 INSEE for names and codes (2018 edition).
@@ -56,7 +58,8 @@ https://github.com/gregoiredavid/france-geojson/blob/master/departements-version
 ## Limitations & Ethics
 
 ### Limitations
-**Geographic:** In terms of geographical scope, DVF is available for mainland France, excluding Alsace and Moselle, as well as the French overseas departments and territories (DROM), except Mayotte.
+**Geographic:** DVF is available for mainland France, excluding Alsace and Moselle and Mayotte.
+During the analysis, I excluded the overseas departments and territories because too many errors were found.
 
 **Privacy Concerns:** The dataset potentially contains sensitive information about property buyers and sellers. While personal identifiers may be removed, there could still be privacy implications when analyzing and sharing this data.
 
